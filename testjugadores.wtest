@@ -1,0 +1,14 @@
+import jugadoresPersonajes.*
+import objetos.*
+
+test "la ballesta esta cargada"{
+    assert.that(ballesta.estaCargada())
+}
+
+// assert.notThat verifica false
+//assert.equals(numero) verifica si da ese numero
+
+test "floki puede matar a aurora, floki tiene jabalina equipada"{
+    floki.encontrar(aurora)
+    assert.notThat(aurora.estaViva())
+}
