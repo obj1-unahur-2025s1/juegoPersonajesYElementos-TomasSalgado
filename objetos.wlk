@@ -55,7 +55,6 @@ object castillo{
 
     method trabajo(){
 
-         // nivelDefensa = nivelDefensa + 20
         nivelDefensa = 20 + nivelDefensa.min(180)
     }
 }
@@ -103,7 +102,7 @@ object tipa{ // Es un arbol
         return 
     }
     
-    method trabajada(){
+    method trabajo(){
         altura = altura + 1
 
     
